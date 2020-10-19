@@ -1,0 +1,10 @@
+/*Primera Manera
+::ng-deep.mat-raised-button {
+    background-color: red !important;
+}
+*/
+
+/*Segunda Manera*/
+:host::ng-deep.mat-raised-button {
+    background-color: green;
+}
